@@ -1,8 +1,8 @@
 import {ScrollParallax} from "react-just-parallax";
-import {curve, heroBackground, robot} from "../../assets/images";
-import Section from "../../components/shared/Section";
-import Button from "../../components/UI/Button";
-import {heroIcons} from "../../utils/constants";
+import {curve, heroBackground, robot} from "../../../assets/images";
+import Section from "../../../components/shared/Section";
+import Button from "../../../components/UI/Button";
+import {heroIcons} from "../../../utils/constants";
 import {BackgroundCircles, BottomLine, Gradient} from "./HeroStyles";
 import Generating from "./Generating";
 import Notification from "./Notification";
@@ -63,7 +63,7 @@ const Hero = () => {
           </div>
           <BackgroundCircles />
         </div>
-        <CompanyLogos className="hidden relative z-10 mt-20 lg:block"/>
+        <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
       </div>
       <BottomLine />
     </Section>

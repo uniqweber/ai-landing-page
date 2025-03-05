@@ -1,4 +1,4 @@
-import {loading} from "../../assets/images";
+import {loading} from "../../../assets/images";
 
 const Generating = ({className}) => {
   return (
