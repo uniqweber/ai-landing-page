@@ -18,13 +18,13 @@
   --font-sora: "Sora", sans-serif;
   --font-code: "Source Code Pro", monospace;
   --font-grotesk: "Space Grotesk", sans-serif;
-  --color-1: #ac6aff;
-  --color-2: #ffc876;
-  --color-3: #ff776f;
-  --color-4: #7adb78;
-  --color-5: #858dff;
-  --color-6: #ff98e2;
-  --stroke-1: #26242c;
+  --color-color-1: #ac6aff;
+  --color-color-2: #ffc876;
+  --color-color-3: #ff776f;
+  --color-color-4: #7adb78;
+  --color-color-5: #858dff;
+  --color-color-6: #ff98e2;
+  --color-stroke-1: #26242c;
   --color-n-1: #ffffff;
   --color-n-2: #cac6dd;
   --color-n-3: #ada8c3;
@@ -56,7 +56,7 @@
   scroll-behavior: smooth;
 }
 body {
-  @apply font-code bg-n-8 text-n-1 text-base;
+  @apply font-sora bg-n-8 text-n-1 text-base;
 }
 .container {
   @apply max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem];
@@ -125,8 +125,6 @@ body {
 .benefit-card-6 {
   background-image: url(../images/benefits/card-6.svg);
 }
-
-
 
 .rotate-45 {
   @apply rotate-[45deg];
