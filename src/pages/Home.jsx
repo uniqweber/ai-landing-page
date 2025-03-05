@@ -1,6 +1,7 @@
 import Benefits from "./homeComp/benefits/Benefits";
 import Collaboration from "./homeComp/collaoration/Collaboration";
 import Hero from "./homeComp/hero/Hero";
+import Services from "./homeComp/services/Service";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <Benefits />
       <Collaboration />
+      <Services/>
     </>
   );
 };

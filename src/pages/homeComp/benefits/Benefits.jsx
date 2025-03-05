@@ -1,5 +1,5 @@
 import {benefits} from "../../../utils/constants";
-import Heading from "./Heading";
+import Heading from "../../../components/ui/Heading";
 import Section from "../../../components/shared/Section";
 import Arrow from "../../../assets/images/svg/Arrow";
 import {GradientLight} from "./BenefitsStyle";
