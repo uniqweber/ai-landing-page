@@ -1,6 +1,8 @@
 import Benefits from "./homeComp/benefits/Benefits";
 import Collaboration from "./homeComp/collaoration/Collaboration";
 import Hero from "./homeComp/hero/Hero";
+import Pricing from "./homeComp/pricing/Pricing";
+import Roadmap from "./homeComp/roadmap/Roadmap";
 import Services from "./homeComp/services/Service";
 
 const Home = () => {
@@ -9,7 +11,9 @@ const Home = () => {
       <Hero />
       <Benefits />
       <Collaboration />
-      <Services/>
+      <Services />
+      <Pricing />
+      <Roadmap/>
     </>
   );
 };
