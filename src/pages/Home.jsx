@@ -1,3 +1,4 @@
+import Footer from "../components/shared/Footer";
 import Benefits from "./homeComp/benefits/Benefits";
 import Collaboration from "./homeComp/collaoration/Collaboration";
 import Hero from "./homeComp/hero/Hero";
@@ -13,7 +14,8 @@ const Home = () => {
       <Collaboration />
       <Services />
       <Pricing />
-      <Roadmap/>
+      <Roadmap />
+      <Footer/>
     </>
   );
 };
