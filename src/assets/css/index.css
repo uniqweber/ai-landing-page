@@ -6,12 +6,6 @@
 :root {
   --bg-radial-gradient: radial-gradient(var(--tw-gradient-stops));
   --bg-conic-gradient: conic-gradient(from 225deg, #ffc876, #79fff7, #9f53ff, #ff98e2, #ffc876);
-  --bg-benefit-card-1: url(../images/ben.svg);
-  --bg-benefit-card-2: url(assets/benefits/card-2.svg);
-  --bg-benefit-card-3: url(assets/benefits/card-3.svg);
-  --bg-benefit-card-4: url(assets/benefits/card-4.svg);
-  --bg-benefit-card-5: url(assets/benefits/card-5.svg);
-  --bg-benefit-card-6: url(assets/benefits/card-6.svg);
 }
 
 @theme {
@@ -95,36 +89,17 @@ body {
   @apply font-code text-lg leading-normal;
 }
 .button {
-  @apply font-code text-xs font-bold uppercase tracking-wider;
+  @apply font-code text-xs font-bold uppercase tracking-wider cursor-pointer;
 }
 .tap-highlight-color {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.radial-gradient {
-  background-image: radial-gradient(var(--tw-gradient-stops));
-}
+
 .bg-conic-gradient {
   background-image: conic-gradient(from 225deg, #ffc876, #79fff7, #9f53ff, #ff98e2, #ffc876);
 }
-.benefit-card-1 {
-  background-image: url(../images/benefits/card-1.svg);
-}
-.benefit-card-2 {
-  background-image: url(../images/benefits/card-2.svg);
-}
-.benefit-card-3 {
-  background-image: url(../images/benefits/card-3.svg);
-}
-.benefit-card-4 {
-  background-image: url(../images/benefits/card-4.svg);
-}
-.benefit-card-5 {
-  background-image: url(../images/benefits/card-5.svg);
-}
-.benefit-card-6 {
-  background-image: url(../images/benefits/card-6.svg);
-}
+
 
 .rotate-45 {
   @apply rotate-[45deg];
