@@ -42,7 +42,7 @@ const Navbar = () => {
           <nav
             className={`${
               openNavigation ? "flex" : "hidden"
-            } fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
+            } fixed top-[4.8rem]  left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
           >
             <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
               {navigation.map((item) => (
@@ -56,7 +56,7 @@ const Navbar = () => {
                     item.url === pathname.hash ? "z-2 lg:text-n-1" : "lg:text-n-1/50"
                   } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
                 >
-                  {item.title} 
+                  {item.title}
                 </a>
               ))}
             </div>
