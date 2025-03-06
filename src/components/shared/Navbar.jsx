@@ -2,7 +2,7 @@ import {useLocation} from "react-router";
 import {brainwave} from "../../assets/images";
 import MenuSvg from "../../assets/images/svg/MenuSvg";
 import {navigation} from "../../utils/constants";
-import Button from "../UI/Button";
+import Button from "../ui/Button";
 import {disablePageScroll, enablePageScroll} from "scroll-lock";
 import {useState} from "react";
 import {HamburgerMenu} from "./NavStyle";
